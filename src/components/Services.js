@@ -16,7 +16,7 @@ const Services = () => {
           California Aging Services are here for you!
         </p>
       </div>
-      <div className="w-[100%] flex flex-col mt-4 px-2">
+      <div className="w-[100%] flex flex-col mt-4 px-2 md:grid grid-cols-3 gap-5">
         <div className="card min-w-fit bg-base-100 shadow-xl my-2 mx-auto">
           <div className="card-body">
             <figure>
@@ -121,12 +121,25 @@ const Services = () => {
           <a
             href="https://www.aging.ca.gov/Find_Services_in_My_County/"
             target="_"
+            className="underline hover:font-extrabold hover:text-accent"
           >
             California Department of Aging{" "}
           </a>{" "}
           to see what services are available in your locality, or by calling the
           California Aging and Adult Information Line at{" "}
-          <a href="tel:18005102020">1-800-510-2020</a>.
+          <a className="underline hover:font-extrabold" href="tel:18005102020">
+            1-800-510-2020
+          </a>
+          .
+        </div>
+        <div>
+          <figure className="p-4">
+            <img
+              src="https://live.staticflickr.com/65535/52539667775_27045774fc_z.jpg"
+              alt="Senior couple and stall attendant discussing produce and smiling"
+              className="rounded-lg"
+            />
+          </figure>
         </div>
       </div>
     </div>
