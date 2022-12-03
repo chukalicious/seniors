@@ -3,7 +3,7 @@ const Navbar = () => {
     <div className="navbar bg-neutral text-neutral-content">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost">
             What's Inside
           </label>
           <ul
