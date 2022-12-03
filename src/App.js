@@ -5,6 +5,7 @@ import { themeChange } from "theme-change";
 
 import Navbar from "./common/Navbar";
 import Home from "./components/Home";
+import Footer from "./common/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
