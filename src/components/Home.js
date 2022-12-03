@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div
-      className="hero min-h-[75vh]"
+      className="hero min-h-[78vh]"
       style={{
         backgroundImage: `url("https://live.staticflickr.com/65535/52539291794_382460c3b1_o.jpg")`,
       }}
