@@ -5,6 +5,7 @@ import { themeChange } from "theme-change";
 
 import Navbar from "./common/Navbar";
 import Home from "./components/Home";
+import Services from "./components/Services";
 import Footer from "./common/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Services />
       <Footer />
     </div>
   );
