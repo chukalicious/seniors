@@ -1,7 +1,13 @@
+import { ImHome } from "react-icons/im";
+
 const Services = () => {
   return (
     <div className="bg-primary pb-4">
       <div className="navbar bg-neutral text-neutral-content">
+        {" "}
+        <div className="navbar-start px-2 py-4 text-5xl">
+          <ImHome />
+        </div>
         <p className="btn btn-ghost normal-case text-xl">
           California Aging Services are here for you!
         </p>
