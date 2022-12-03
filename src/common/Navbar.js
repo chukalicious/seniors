@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-neutral text-neutral-content">
-      <div className="navbar-start">
+    <div className="navbar bg-neutral text-neutral-content border-b-8 border-primary">
+      <div className="navbar-start w-full">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost">
             What's Inside
@@ -33,7 +33,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Aging in California</a>
+        <div className="w-full flex text-center md:flex-row-reverse ">
+          <a className="btn btn-ghost normal-case text-xl">
+            Aging in California
+          </a>
+        </div>
       </div>
     </div>
   );
