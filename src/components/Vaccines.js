@@ -65,6 +65,7 @@ const Vaccines = () => {
           <a
             className="hover:font-bold underline"
             href="https://myturn.ca.gov/"
+            target="_"
           >
             www.myturn.ca.gov
           </a>{" "}
