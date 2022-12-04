@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="box-border">
       <Navbar />{" "}
       <Routes>
         <Route path="/" element={<Home />} />
