@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { BiMenuAltLeft } from "react-icons/bi";
 const Navbar = () => {
   return (
@@ -12,16 +13,21 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
               <a>Over 60? California has a plan for you</a>
             </li>
             <li>
-              <a>
+              <Link to="/services">
                 Services for Older Adults For aging adults in each region of
                 California
-              </a>
+              </Link>
             </li>
             <li>
-              <a>Vaccines Provide a Pathway to connection</a>
+              <Link to="/vaccines">
+                Vaccines Provide a Pathway to connection
+              </Link>
             </li>
             <li>
               <a>Feeling Isolated? Here's how to reconnect</a>
@@ -35,9 +41,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="w-full flex text-center md:flex-row-reverse ">
-          <a className="btn btn-ghost normal-case text-xl">
+          <Link to="/" className="btn btn-ghost normal-case text-xl">
+            {" "}
             Aging in California
-          </a>
+          </Link>
         </div>
       </div>
     </div>
