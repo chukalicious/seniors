@@ -3,10 +3,10 @@ const Over60 = () => {
     <div>
       <div className="w-full py-4 px-4 text-2xl">
         <div>
-          <h2 className="p-2 font-bold uppercase text-neutral text-3xl">
+          <h2 className="p-2 font-bold uppercase text-neutral text-4xl">
             Over 60?
           </h2>
-          <h3 className="px-2 mt-[-.5rem] pb-4 font-semibold capitalize text-primary text-xl">
+          <h3 className="px-2 mt-[-.5rem] pb-4 font-semibold capitalize text-primary text-3xl">
             California has a plan for you
           </h3>
           <div className="md:grid grid-cols-2 gap-4 w-[100%]">
