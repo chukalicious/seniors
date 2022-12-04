@@ -7,12 +7,9 @@ import { GiHotMeal } from "react-icons/gi";
 const Services = () => {
   return (
     <div className="bg-primary pb-4">
-      <div className="navbar bg-neutral text-neutral-content">
+      <div className="navbar">
         {" "}
-        <div className="navbar-start px-2 py-4 text-5xl">
-          <ImHome />
-        </div>
-        <p className="normal-case text-xl max-w-sm text-left ">
+        <p className="uppercase text-xl min-w-fit text-left text-neutral font-extralight px-4">
           California Aging Services are here for you!
         </p>
       </div>
