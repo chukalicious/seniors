@@ -1,10 +1,11 @@
+import { BiMenuAltLeft } from "react-icons/bi";
 const Navbar = () => {
   return (
     <div className="navbar bg-neutral text-neutral-content border-b-8 border-primary">
       <div className="navbar-start w-full">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost">
-            What's Inside
+            <BiMenuAltLeft className="text-5xl" />
           </label>
           <ul
             tabIndex={0}
