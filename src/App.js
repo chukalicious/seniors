@@ -7,8 +7,9 @@ import Navbar from "./common/Navbar";
 import Home from "./components/Home";
 import Over60 from "./components/Over60";
 import Services from "./components/Services";
-import Footer from "./common/Footer";
 import Vaccines from "./components/Vaccines";
+import Education from "./components/Education";
+import Footer from "./common/Footer";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/vaccines" element={<Vaccines />} />
         <Route path="/over60" element={<Over60 />} />
       </Routes>
+      <Education />
       <Footer />
     </div>
   );
