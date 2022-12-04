@@ -23,8 +23,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/vaccines" element={<Vaccines />} />
+        <Route path="/over60" element={<Over60 />} />
       </Routes>
-      <Over60 />
       <Footer />
     </div>
   );

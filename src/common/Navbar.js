@@ -16,7 +16,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Over 60? California has a plan for you</a>
+              <Link to="/over60">Over 60? California has a plan for you</Link>
             </li>
             <li>
               <Link to="/services">
