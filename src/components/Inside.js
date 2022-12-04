@@ -28,16 +28,20 @@ const Inside = () => {
             <p>to connection</p>
           </div>
         </Link>
-        <div className="hover:bg-primary hover:text-neutral rounded-lg p-2 my-2">
-          <h3 className="text-2xl text-bold uppercase">Feeling Isolated?</h3>
-          <p>Here's how to reconnect</p>
-        </div>
-        <div className="hover:bg-primary hover:text-neutral rounded-lg p-2 my-2">
-          <h3 className="text-2xl text-bold uppercase">
-            Elder abuse and Neglect
-          </h3>
-          <p>How to spot it and how you can help</p>
-        </div>
+        <Link to="/reconnect">
+          <div className="hover:bg-primary hover:text-neutral rounded-lg p-2 my-2">
+            <h3 className="text-2xl text-bold uppercase">Feeling Isolated?</h3>
+            <p>Here's how to reconnect</p>
+          </div>
+        </Link>
+        <Link to="/abuse">
+          <div className="hover:bg-primary hover:text-neutral rounded-lg p-2 my-2">
+            <h3 className="text-2xl text-bold uppercase">
+              Elder abuse and Neglect
+            </h3>
+            <p>How to spot it and how you can help</p>
+          </div>
+        </Link>
         <div className="hover:bg-primary hover:text-neutral rounded-lg p-2 my-2">
           <h3 className="text-2xl text-bold uppercase">
             Directory of resources

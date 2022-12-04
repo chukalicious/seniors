@@ -8,7 +8,8 @@ import Home from "./components/Home";
 import Over60 from "./components/Over60";
 import Services from "./components/Services";
 import Vaccines from "./components/Vaccines";
-import Education from "./components/Education";
+import Reconnect from "./components/Reconnect";
+import Abuse from "./components/Abuse";
 import Footer from "./common/Footer";
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/vaccines" element={<Vaccines />} />
         <Route path="/over60" element={<Over60 />} />
+        <Route path="/reconnect" element={<Reconnect />} />
+        <Route path="/abuse" element={<Abuse />} />
       </Routes>
-      <Education />
       <Footer />
     </div>
   );
