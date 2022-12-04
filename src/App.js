@@ -5,6 +5,7 @@ import { themeChange } from "theme-change";
 
 import Navbar from "./common/Navbar";
 import Home from "./components/Home";
+import Over60 from "./components/Over60";
 import Services from "./components/Services";
 import Footer from "./common/Footer";
 import Vaccines from "./components/Vaccines";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/vaccines" element={<Vaccines />} />
       </Routes>
+      <Over60 />
       <Footer />
     </div>
   );
