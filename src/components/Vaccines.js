@@ -2,21 +2,20 @@ const Vaccines = () => {
   return (
     <div>
       <div
-        className="hero min-h-[45vh] border-t-8 border-neutral "
+        className="hero min-h-[45vh]"
         style={{
           backgroundImage: `url("https://live.staticflickr.com/65535/52540022217_541008c386_z.jpg")`,
         }}
       >
         <div className="hero-overlay"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <p className="mt-40 uppercase font-semibold text-primary-secondary">
-              For older adults, vaccines provide a pathway to connection.
-            </p>
-          </div>
-        </div>
+        <div className="hero-content text-center text-neutral-content"></div>
       </div>
-      <div>
+      <div className="bg-primary">
+        <div className="max-w-md py-4 px-4">
+          <p className="capitalize font-semibold text-primary-secondary">
+            For older adults, vaccines provide a pathway to connection
+          </p>
+        </div>
         <p className="p-2 text-justify">
           Many older adults were Isolated in the pandemic. Social centers for
           ageing adults were forced to close in-person services and health
