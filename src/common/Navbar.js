@@ -30,13 +30,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a>Feeling Isolated? Here's how to reconnect</a>
+              <Link to="/">Feeling Isolated? Here's how to reconnect</Link>
             </li>
             <li>
-              <a>Elder Abuse and Neglect How to spot it and how you can help</a>
+              <Link to="/">
+                Elder Abuse and Neglect How to spot it and how you can help
+              </Link>
             </li>
             <li>
-              <a>Directory of Resources List of older adults resources</a>
+              <Link to="/">
+                Directory of Resources List of older adults resources
+              </Link>
             </li>
           </ul>
         </div>
