@@ -3,11 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: "600px",
-      // => @media (min-width: 640px) { ... }
+      sm: "374px",
+      // => @media (min-width: 374px) { ... }
 
       md: "601px",
-      // => @media (min-width: 768px) { ... }
+      // => @media (min-width: 601px) { ... }
 
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }
